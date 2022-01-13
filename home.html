@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">  
+  <!-- myLangApp -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/controller.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    
+  
+<!--     
+  <div class="container">
+  <h2 class="heading">About Us</h2>
+
+<div ng-init="language='We are one of the largest institution in india with an A+ badge blah blah blah '">{{ language }}</div>  
+<br>
+<br>
+<br>
+
+<h2 class="heading"> Courses offered</h2>
+<div ng-init="courses=[{engineering:'Computer',diploma:'Computer'},{engineering:'Mech',diploma:'mech'},{engineering:'Electrical',diploma:'electrical'}]">
+
+
+<p ng-repeat="l in courses">
+    Engineering Course:{{l.engineering}}
+<br>
+    Diploma:{{l.diploma}}
+
+</p>
+
+</div>
+<br>
+<br>
+<br>
+<h2 class="heading">Contact Us</h2>
+<div ng-init="contactus='business@school.com'">{{ contactus }}</div>
+</div> -->
+
+<div ng-view></div>
+   
+
+  </body>
+</html>

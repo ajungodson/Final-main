@@ -1,0 +1,39 @@
+[
+    {
+        "ide":"1",
+        "name":"Ajun",
+        "gender":"Male",
+    "dept":"CS",
+    "jobrole":"Engineer",
+    "sal":"45652",
+    "exp":"2 yrs"
+
+    },
+    {
+        "ide":"2",
+        "name":"Biju",
+        "gender":"Male",
+    "dept":"EEE",
+    "jobrole":"Quality",
+    "sal":"50000",
+    "exp":"1 yrs"
+
+    },
+
+    {
+        "ide":"3",
+        "name":"Cider",
+        "gender":"Female",
+    "dept":"CS",
+    "jobrole":"Engineer",
+    "sal":"38000",
+    "exp":"4 yrs"
+
+    }
+    
+    
+
+    
+
+    
+]
