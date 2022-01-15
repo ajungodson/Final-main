@@ -62,6 +62,24 @@ app.config(function($routeProvider){
 
     })
 
+    .when('/eatbetter',{
+        templateUrl:'eatbetter.html'
+
+
+    })
+
+    .when('/getfit',{
+        templateUrl:'getfit.html'
+
+
+    })
+
+    .when('/manageweight',{
+        templateUrl:'manageweight.html'
+
+
+    })
+
 
     .otherwise({
         redirectTo:'/'
@@ -158,6 +176,31 @@ $scope.latest6=function(){
 
 }
 
+
+$scope.eatbetter=function(){
+                    
+                  
+                    
+    $location.path('/eatbetter')
+
+}
+
+
+$scope.getfit=function(){
+                    
+                  
+                    
+    $location.path('/getfit')
+
+}
+
+$scope.manageweight=function(){
+                    
+                  
+                    
+    $location.path('/manageweight')
+
+}
 
 
  }  )
