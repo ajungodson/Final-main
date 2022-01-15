@@ -86,7 +86,13 @@ app.config(function($routeProvider){
     })
 })
 
-app.controller('main',function($scope,$location){
+app.controller('main',function($scope,$location,$window){
+    
+    $scope.DisplayPrompt = function () {
+        var name = $window.prompt('Enter Your Name');
+        
+        $window.alert('Hello ' + name);
+    }
     
     
     
@@ -212,9 +218,6 @@ $scope.manageweight=function(){
 
       
    
-
-
-
 
 
 
