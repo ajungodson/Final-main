@@ -207,20 +207,6 @@ $scope.manageweight=function(){
 
 
 
-var app=angular.module('EmpDetails',[]);
-
-  app.controller('myController',function($scope,$http){
- $http({
-     method:'GET',
-     url:'/model/database.json'
-
-
- }).then(function(response){
-     $scope.employees=response.data;
- })
-})
-
-
 
 
 
